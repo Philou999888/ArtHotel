@@ -1,0 +1,38 @@
+/* -------------------------------------------
+
+datepicker
+
+------------------------------------------- */
+.datepicker {
+    font-family: $font-2;
+    border: none;
+    font-size: $text;
+    width: 300px;
+    background-color: $light;
+    box-shadow: 0px 4px 20px rgba($dark, .07);
+
+    & .datepicker--pointer {
+        border-top: solid 1px $soft-2;
+        border-right: solid 1px $soft-2;
+    }
+
+    & .datepicker--nav {
+        height: 60px;
+    }
+
+    & .datepicker--cell {
+        height: 40px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 265px;
+
+        & .datepicker--nav {
+            height: 40px;
+        }
+
+        & .datepicker--cell {
+            height: 30px;
+        }
+    }
+}

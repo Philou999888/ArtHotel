@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-1: 'Outfit',
+sans-serif;
+$font-2: 'Outfit',
+sans-serif;
+
+$accent-1: rgba(35, 188, 236, 1);
+$accent-2: rgba(236, 185, 52, 1);
+$dark: rgba(32, 79, 94, 1);
+$gray: rgba(90, 134, 149, 1);
+$soft-1: rgba(183, 231, 231, 1);
+$soft-2: rgba(213, 241, 241, 1);
+$soft-3: rgba(234, 251, 251, 1);
+$soft-4: rgba(243, 253, 253, 1);
+$light: rgba(250, 255, 255, 1);
+
+$h1: 78px;
+$h2: 38px;
+$h3: 24px;
+$h4: 20px;
+$h5: 18px;
+$h6: 16px;
+
+$text: 15px;
+$link: 12px;
+
+$t-sm: .2s cubic-bezier(0, 0, 0.3642, 1);
+$t-md: .4s cubic-bezier(0, 0, 0.3642, 1);
+$t-lg: .6s cubic-bezier(0, 0, 0.3642, 1);
